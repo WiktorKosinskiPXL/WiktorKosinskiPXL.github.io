@@ -1,8 +1,25 @@
 <!DOCTYPE html>
-<html>
-<body>
-
-<h1>Sup?</h1>
-
-</body>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Wiktor Kosinski I-Talent</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #000000"></canvas>
+    <script src="Build/WiktorKosinskiPXL.github.io.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/WiktorKosinskiPXL.github.io.data.gz",
+        frameworkUrl: "Build/WiktorKosinskiPXL.github.io.framework.js.gz",
+        codeUrl: "Build/WiktorKosinskiPXL.github.io.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "PXL",
+        productName: "Campus",
+        productVersion: "0.1",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      });
+    </script>
+  </body>
 </html>
