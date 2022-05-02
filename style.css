@@ -6,6 +6,11 @@ p {
 nav{
   float:left;
 }
+img{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 5px;
+}
 body{
   min-height: 100vh;
   background-color: black;
