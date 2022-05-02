@@ -3,3 +3,15 @@ p {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: gray;
 }
+nav{
+  float:left;
+}
+body{
+  min-height: 100vh;
+  background-color: black;
+}
+a{
+  color:darkseagreen ;
+  font-weight: bold;
+  text-decoration: none;
+}
