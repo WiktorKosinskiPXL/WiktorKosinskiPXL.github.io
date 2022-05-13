@@ -4,7 +4,13 @@ p {
   color: gray;
 }
 nav{
-  float:left;
+  text-align: left;
+  display: block;
+  overflow: hidden;
+  width: 100%; 
+  padding: 0;
+  margin:0px;
+  height: 90px;
 }
 img{
   position: absolute;
@@ -19,4 +25,14 @@ a{
   color:darkseagreen ;
   font-weight: bold;
   text-decoration: none;
+}
+.press:hover{
+  font-weight: bold;
+  color: #6ABE30;
+}
+h2{
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: gainsboro;
+  text-align: left;
 }
