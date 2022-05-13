@@ -36,3 +36,8 @@ h2{
   color: gainsboro;
   text-align: left;
 }
+@media (max-width:1500px) {
+  h2{
+    text-align: center;
+  }
+}
